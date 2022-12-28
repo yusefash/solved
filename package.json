@@ -1,0 +1,17 @@
+{
+  "name": "applicative-practice",
+  "version": "1.0.0",
+  "description": "this is a great way to practice array applicatives in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^0.25.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}
