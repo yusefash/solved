@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getEarthData } from "../e9";
+import { getEarthData } from "../exercises/e9";
 import { data } from "../data/data";
 
 describe("getEarthData", () => {

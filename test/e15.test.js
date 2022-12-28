@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPlanetsWithNoMoons } from "../e15";
+import { getPlanetsWithNoMoons } from "../exercises/e15";
 import { data } from "../data/data";
 
 describe("planetsWithNoMoons", () => {

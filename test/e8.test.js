@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findPlanetNameByMoon } from "../e8";
+import { findPlanetNameByMoon } from "../exercises/e8";
 import { data } from "../data/data";
 
 describe("findPlanetNameByMoon", () => {

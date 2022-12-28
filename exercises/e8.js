@@ -1,4 +1,4 @@
-import { data } from "./data/data";
+import { data } from "../data/data";
 
 // SPACE DATA EXERCISE 8
 // Return a Planet name by a given moon name

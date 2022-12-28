@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getAllAverageTemperatures } from "../e3";
+import { getAllAverageTemperatures } from "../exercises/e3";
 import { data } from "../data/data";
 
 describe("getAllAverageTemperatures", () => {

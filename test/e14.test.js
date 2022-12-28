@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getOrbitalPeriodsSum } from "../e14";
+import { getOrbitalPeriodsSum } from "../exercises/e14";
 import { data } from "../data/data";
 
 describe("getOrbitalPeriodsSum", () => {

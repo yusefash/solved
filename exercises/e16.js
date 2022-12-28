@@ -1,4 +1,4 @@
-import { data } from "./data/data";
+import { data } from "../data/data";
 
 // SPACE DATA EXERCISE 16
 // Return the year with the greatest number of Asteroids discoveries

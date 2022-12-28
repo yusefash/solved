@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getGreatestDiscoveryYear } from "../e16";
+import { getGreatestDiscoveryYear } from "../exercises/e16";
 import { data } from "../data/data";
 
 describe("getGreatestDiscoveryYear", () => {

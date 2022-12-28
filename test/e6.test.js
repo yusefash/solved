@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getAsteroidsDiscoveredAfterYear } from "../e6";
+import { getAsteroidsDiscoveredAfterYear } from "../exercises/e6";
 import { data } from "../data/data";
 
 describe("getAsteroidsDiscoveredAfterYear", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { lowMoonsPlanets } from "../e11";
+import { lowMoonsPlanets } from "../exercises/e11";
 import { data } from "../data/data";
 
 describe("lowMoonsPlanets", () => {

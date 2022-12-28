@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { allPlanetsMoonsCount } from "../e12";
+import { allPlanetsMoonsCount } from "../exercises/e12";
 import { data } from "../data/data";
 
 describe("allPlanetsMoonsCount", () => {

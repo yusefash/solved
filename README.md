@@ -11,7 +11,7 @@
 Remember, every function must return something.
 
 ## HOW IT WORKS
-- The repo has 16 exercise files (e1.js .. e16.js). Each file includes the task description, a function declared, data imported, and a placeholder for your code.
+- The repo has the "exercises" folder with 16 exercise files (e1.js .. e16.js). Each file includes the task description, a function declared, data imported, and a placeholder for your code.
 - Open e1.js file and start writing functions' code in the "Your code goes here..." placeholder to achieve the goals described.
 - Once you are done, run the test command ```npm run test-1``` in the command line, where "1" is the current exercise number. This will start the test environment and show the passed and failed tests for the current code you have written.
 - If the test results have all tests passed (no red comments), consider it to be finished successfully, then switch to the next exercise file.
@@ -26,7 +26,7 @@ Please, do **NOT** change or update:
 - Files in the "data" folder.
 - Files in the "test" folder.
 
-You can only write your code in the "Your code goes here..." placeholder in each file.
+You can only write your code in the "Your code goes here..." placeholder in each exercise file of the "exercises" folder.
 
 Changing the files listed above may cause tests failure.
 Please, do not add/commit any repo changes before you finish ALL the exercises and pass All test.

@@ -1,4 +1,4 @@
-import { data } from "./data/data";
+import { data } from "../data/data";
 
 // SPACE DATA EXERCISE 13
 // Return the average temperature of all the Planets

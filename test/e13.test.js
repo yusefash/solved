@@ -1,5 +1,5 @@
 import {describe, expect, it} from "vitest";
-import { getAveragePlanetsTemperature } from "../e13";
+import { getAveragePlanetsTemperature } from "../exercises/e13";
 import { data } from "../data/data";
 
 describe("averagePlanetsTemperature", () => {

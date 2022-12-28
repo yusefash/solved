@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPlanetsWithMassValue } from "../e5";
+import { getPlanetsWithMassValue } from "../exercises/e5";
 import { data } from "../data/data";
 
 describe("getPlanetsWithMassValue", () => {
