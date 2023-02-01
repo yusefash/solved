@@ -5,8 +5,23 @@ import { data } from "../data/data";
 // Return example: 1902
 
 export function getGreatestDiscoveryYear(data) {
-  // Your code goes here...
-  // feel free to import your `maxBy` or `minBy` methods from previous lessons
+  let years = {}
+
+  data.asteroids.map(obj => {
+    if (obj.discoveryYear in years) {
+      years[obj.discoveryYear] += 1
+    }  else {
+      years[obj.discoveryYear] = 1
+    }
+  })
+
+  const yearsKeys = Object.keys(years)
+  let highestYear = yearsKeys[0]
+  yearsKeys.map(year => {
+    if (years[year] > years[highestYear]){
+      highestYear = year}
+  })
+  return parseInt(highestYear)
 }
 
 // === TEST YOURSELF ===
